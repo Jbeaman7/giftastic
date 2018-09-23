@@ -41,6 +41,7 @@ $("button").on("click", function(){
 var newDogs= [""];
 
 $("#userButton").on('click', function(){
+    event.preventDefault() 
     var dogButton = $("#user-input").val();
     //adds the new animal
 
