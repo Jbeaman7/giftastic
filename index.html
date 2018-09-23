@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Giftastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark" style=" color:white">
+      <div class="imgBtns">
+        <button data-dog="Samoyed" class="bg-info">Samoyed</button>
+        <button data-dog="Husky" class="bg-info">Husky</button>
+        <button data-dog="Labrador" class="bg-info">Labrador</button>
+        <button data-dog="German Shepard" class="bg-info">German Shepard</button>
+        <button data-dog="Shiba Inu" class="bg-info">Shiba Inu</button>
+        <button data-dog="Retriever" class="bg-info">Retriever</button>
+        <button data-dog="Malamute" class="bg-info">Malamute</button>
+        <button data-dog="Black Labrador" class="bg-info">Black Labrador</button>
+        <button data-dog="Chihuahua" class="bg-info">Chihuahua</button>
+        <button data-dog="Border Collie" class="bg-info">Border Collie</button>
+        
+      </div>
+      <div id="gifs">
+
+      </div>
+
+      <div style="float:right">
+          <h2>Add a new breed of dog</h2>
+             <form id="gif-form">
+                 <label for="user-input"></label>
+                 <input type="text" value="" id="user-input"><br><br>
+                 <!--Creates the submit button-->
+                 <input type="submit" class="btn btn-success" id="userButton" style="margin-left:8px">
+             </form>
+         </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="./assets/app.js"></script>
+  </body>
+</html>
